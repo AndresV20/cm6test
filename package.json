@@ -1,0 +1,25 @@
+{
+  "name": "cm6test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresV20/cm6test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresV20/cm6test/issues"
+  },
+  "homepage": "https://github.com/AndresV20/cm6test#readme",
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.20.0",
+    "@codemirror/lang-javascript": "^6.1.2",
+    "codemirror": "^6.0.1"
+  }
+}
