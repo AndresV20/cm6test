@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "rollup -c",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -11,5 +12,14 @@
   "devDependencies": {
     "typescript": "^4.9.3",
     "vite": "^4.0.0"
-  }
+  },
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.20.0",
+    "@codemirror/lang-javascript": "^6.1.2",
+    "codemirror": "^6.0.1"
+  },
+  "main": "editor.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
